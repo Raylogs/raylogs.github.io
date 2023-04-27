@@ -1,0 +1,52 @@
+h1 {
+    font-size: 75px;
+    font-family: Segoe UI;
+    text-align: center;
+      background: linear-gradient(to right, rgb(255, 0, 149), rgb(0, 47, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-image: linear-gradient(to top right, rgb(18, 0, 68), rgb(53, 36, 59));
+    background-color: rgb(0, 0, 0);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.boxgrid {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: segoe ui;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.box1 {
+    grid-row: 1/2;
+    grid-column: 1/2 ;
+}
+
+.box2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.box3 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.box4 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
