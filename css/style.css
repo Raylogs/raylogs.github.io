@@ -6,7 +6,6 @@ body {
 }
 
 
-
 a {
     color: rgb(204, 35, 35);
 }
@@ -31,7 +30,8 @@ hr {
 .text {
     text-align: center;
     font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     color: burlywood;
 }
 
