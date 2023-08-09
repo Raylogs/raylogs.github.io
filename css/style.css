@@ -35,6 +35,14 @@ hr {
     color: burlywood;
 }
 
+.text_s {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: burlywood;
+}
+
 .navcontainer {
     overflow-y: auto;
 }
