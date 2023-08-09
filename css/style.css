@@ -70,14 +70,14 @@ hr {
   }
   
   .gallery-item {
-    width: calc(25% - 10px); /* Adjust as needed */
+    width: calc(25% - 10px);
     margin-bottom: 20px;
-    position: relative; /* Required for positioning caption */
+    position: relative;
   }
   
   .gallery img {
     width: 100%;
-    display: block; /* Remove any residual spacing */
+    display: block;
     transition: transform 0.3s ease;
   }
   
@@ -88,20 +88,20 @@ hr {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    padding: 5px;
+    padding: 10px;
     margin: 0;
-    font-size: 12px;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
   }
   
   .gallery-item:hover .image-caption {
-    opacity: 1; /* Show caption on hover */
+    opacity: 1;
   }
   
   @media (max-width: 768px) {
     .gallery-item {
-      width: calc(50% - 10px); /* Adjust as needed */
+      width: calc(50% - 10px);
     }
   }
   
