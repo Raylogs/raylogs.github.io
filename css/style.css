@@ -22,14 +22,6 @@ hr {
     opacity: 0;
 }
 
-@media (max-width: 768px) {
-    p {
-        size: 50%;
-    }
-    .image-container {
-        flex-direction: column;
-    }
-}
 
 .gallery {
     display: flex;
@@ -83,4 +75,16 @@ hr {
 
 .layer1 {
     background-image: url(../img/waves.svg);
+}
+
+@media(max-device-width: 768px){
+    section {
+        padding: 10px;
+    }
+    .gallery-item {
+        flex-basis: calc(100% - 10px);
+    }
+    .title {
+        font-size: 100px;
+    }
 }
