@@ -29,6 +29,7 @@ hr {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
+    overflow: hidden;
 }
 
 .gallery-item {
