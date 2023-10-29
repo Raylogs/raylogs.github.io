@@ -1,91 +1,27 @@
-
+h1 {
+    font-size: 100px;
+    font-family: Dosis;
+    text-align: center;
+    background: linear-gradient(to  right, rgb(255, 0, 221), rgb(0, 217, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    justify-content: center;
     background: #001220;
     color: white;
     font-family: 'Dosis', sans-serif;
 }
 
-section {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+h2 {
     text-align: center;
-    min-height: 350px;
-    overflow: auto;
 }
 
-hr {
-    opacity: 0;
-}
-
-
-.gallery {
-    display: flex;
-    justify-content: space-between;
+img {
     align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    overflow: hidden;
 }
 
-.gallery-item {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 20px;
-    position: relative;
-    overflow: hidden;
-    opacity: 1;
-    transition: opacity 0.3s, transform 0.3s;
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.gallery-item:hover {
-    opacity: 1;
-    transform: scale(1.05);
-}
-
-.title {
-    font-weight: 900;
-    font-size: 150px;
-}
-
-.intro {
-    font-size: 50px;
-}
-
-.entry {
-    font-size: 30px;
-}
-
-.waves {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-}
-
-.layer1 {
-    background-image: url(../img/waves.svg);
-}
-
-@media(max-device-width: 768px){
-    section {
-        padding: 10px;
-    }
-    .gallery-item {
-        flex-basis: calc(100% - 10px);
-    }
-    .title {
-        font-size: 100px;
-    }
+p {
+    text-align: center;
 }
