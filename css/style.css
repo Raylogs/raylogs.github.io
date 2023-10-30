@@ -91,7 +91,7 @@ a {
     section {
         padding: 10px;
     }
-    .gallery-item {
+    .menu-items {
         flex-basis: calc(50% - 10px);
     }
     .title {
