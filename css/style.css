@@ -47,7 +47,6 @@ a {
     flex-basis: calc(25% - 20px);
     margin-bottom: 20px;
     position: relative;
-    overflow: hidden;
     opacity: 1;
     transition: opacity 0.3s, transform 0.3s;
 }
@@ -60,7 +59,7 @@ a {
 
 .menu-items:hover {
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.015);
 }
 
 .blobs {
@@ -104,6 +103,6 @@ a {
 
 @media(max-device-width: 768px){
     .menu-items {
-        flex-basis: calc(50% - 10px);
+        flex-basis: calc(100% - 20px);
     }
 }
