@@ -15,7 +15,8 @@ a {
 }
 
 .title {
-    font-size: 100px;
+    top: 1cqb;
+    font-size: 15cqb;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding-top: 50px;
@@ -104,8 +105,5 @@ a {
 @media(max-device-width: 768px){
     .menu-items {
         flex-basis: calc(50% - 10px);
-    }
-    .title {
-        font-size: 80px;
     }
 }
