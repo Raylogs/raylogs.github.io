@@ -16,6 +16,7 @@ a {
 
 .title {
     top: 1cqb;
+    font-variant: small-caps;
     font-size: 15cqb;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
