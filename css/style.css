@@ -118,3 +118,17 @@ a {
 .smaller {
      font-size:50%; 
     }
+.onethird{
+    display: inline-block; 
+    width: 29.4vw; 
+    margin: 2.5vw; 
+    margin-right: 0vi; 
+    text-align: justify;
+    vertical-align: top;
+}
+.onethirdpic{
+    width: 29.4vw; 
+    margin: 2.5vi; 
+    margin-right: 0vi; 
+    vertical-align: top; 
+}
