@@ -125,11 +125,13 @@ a {
     margin-right: 0vi; 
     text-align: justify;
     vertical-align: top;
+    font-size: large;
 }
 .onethirdpic{
     width: 29.4vw; 
     margin: 2.5vi; 
     margin-right: 0vi; 
+    height: 15vw;
 }
 
 
