@@ -1,84 +1,204 @@
 const questions = [
-    {
-        "question": "Wat is de primaire focus van ethos in retorica?",
-        "optionA": "Emotionele appel",
-        "optionB": "Logisch argument",
-        "optionC": "Geloofwaardigheid van de spreker",
-        "optionD": "Reactie van het publiek",
-        "correctOption": "optionC"
-    },
-    {
-        "question": "Welke retorische appel is gebaseerd op logica en redenering?",
-        "optionA": "Pathos",
-        "optionB": "Ethos",
-        "optionC": "Kairos",
-        "optionD": "Logos",
-        "correctOption": "optionD"
-    },
-    {
-        "question": "Waar is pathos in de retorica primair op gericht?",
-        "optionA": "Ethische appel",
-        "optionB": "Emotionele appel",
-        "optionC": "Logische appel",
-        "optionD": "Historische appel",
-        "correctOption": "optionB"
-    },
-    {
-        "question": "Wat is een voorbeeld van een retorisch middel dat emoties oproept?",
-        "optionA": "Metafoor",
-        "optionB": "Statistisch bewijs",
-        "optionC": "Anekdote",
-        "optionD": "Definitie",
-        "correctOption": "optionC"
-    },
-    {
-        "question": "Welke van de volgende kenmerken is typerend voor een retorische vraag?",
-        "optionA": "Vereist een gedetailleerd antwoord",
-        "optionB": "Zoekt naar feitelijke informatie",
-        "optionC": "Wordt gebruikt om een punt te maken zonder een antwoord te verwachten",
-        "optionD": "Staat meerdere antwoorden toe",
-        "correctOption": "optionC"
-    },
-    {
-        "question": "Welke retorische techniek houdt in dat dezelfde beginmedeklinker in een reeks woorden wordt herhaald?",
-        "optionA": "Hyperbool",
-        "optionB": "Alliteratie",
-        "optionC": "Ironie",
-        "optionD": "Metafoor",
-        "correctOption": "optionB"
-    },
-    {
-        "question": "Waar verwijst 'kairos' naar in retorica?",
-        "optionA": "De emotionele appel",
-        "optionB": "De geloofwaardigheid van de spreker",
-        "optionC": "De logische structuur",
-        "optionD": "Het geschikte moment om een boodschap over te brengen",
-        "correctOption": "optionD"
-    },
-    {
-        "question": "Welke techniek wordt gebruikt om ethos op te bouwen in een toespraak?",
-        "optionA": "Het vertellen van een persoonlijk verhaal",
-        "optionB": "Het citeren van gezaghebbende bronnen",
-        "optionC": "Het presenteren van logische argumenten",
-        "optionD": "Het gebruik van retorische vragen",
-        "correctOption": "optionB"
-    },
-    {
-        "question": "Wat is een antithese in retorische termen?",
-        "optionA": "Een overdrijving voor effect",
-        "optionB": "Een tegenstelling van ideeën",
-        "optionC": "Een vergelijking met 'zoals' of 'als'",
-        "optionD": "Een understatement",
-        "correctOption": "optionB"
-    },
-    {
-        "question": "Wat betekent 'synecdoche' in de retorica?",
-        "optionA": "Een vorm van ironie",
-        "optionB": "Een deel dat het geheel vertegenwoordigt",
-        "optionC": "Een overdrijving",
-        "optionD": "Een eufemisme",
-        "correctOption": "optionB"
-    }
+        {
+            "question": "Welke techniek wordt gebruikt om ethos op te bouwen in een toespraak?",
+            "optionA": "Het vertellen van een persoonlijk verhaal",
+            "optionB": "Het citeren van gezaghebbende bronnen",
+            "optionC": "Het presenteren van logische argumenten",
+            "optionD": "Het gebruik van retorische vragen",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Wat is het hoofddoel van pathos in een toespraak?",
+            "optionA": "Het tonen van deskundigheid",
+            "optionB": "Het wekken van emoties",
+            "optionC": "Het presenteren van logische argumenten",
+            "optionD": "Het citeren van bronnen",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Welke van de volgende aspecten hoort niet bij de vier belangrijke aspecten van retorica genoemd in de tekst?",
+            "optionA": "Ethos",
+            "optionB": "Logos",
+            "optionC": "Pathos",
+            "optionD": "Framen",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Wat kan je gebruiken om jezelf deskundig te laten lijken als je dat niet bent?",
+            "optionA": "Pathos",
+            "optionB": "Logos",
+            "optionC": "Ethos",
+            "optionD": "Framen",
+            "correctOption": "optionC"
+        },
+        {
+            "question": "Welk aspect van retorica is voornamelijk gericht op het wekken van emoties bij het publiek?",
+            "optionA": "Ethos",
+            "optionB": "Pathos",
+            "optionC": "Logos",
+            "optionD": "Framen",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Hoe helpt het gebruik van verhalen in een toespraak?",
+            "optionA": "Het maakt argumenten persoonlijker en makkelijker te begrijpen",
+            "optionB": "Het toont de deskundigheid van de spreker",
+            "optionC": "Het wekt emoties op bij het publiek",
+            "optionD": "Het presenteert logische argumenten",
+            "correctOption": "optionA"
+        },
+        {
+            "question": "Wat is het doel van framen in retorica?",
+            "optionA": "Het wekken van emoties bij het publiek",
+            "optionB": "Het tonen van de deskundigheid van de spreker",
+            "optionC": "Het verdraaien of anders uitleggen van onderwerpen",
+            "optionD": "Het presenteren van logische argumenten",
+            "correctOption": "optionC"
+        },
+        {
+            "question": "Hoe kan je ethos opbouwen zonder deskundig te zijn?",
+            "optionA": "Door logische argumenten te presenteren",
+            "optionB": "Door jezelf zo te laten lijken",
+            "optionC": "Door emoties op te wekken",
+            "optionD": "Door verhalen te vertellen",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Wat is een kenmerk van ethos?",
+            "optionA": "Het opwekken van emoties",
+            "optionB": "Het tonen van karakter en betrouwbaarheid",
+            "optionC": "Het verdraaien van feiten",
+            "optionD": "Het gebruik van verhalen",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Welke techniek kan ervoor zorgen dat onjuistenheden juist lijken?",
+            "optionA": "Pathos",
+            "optionB": "Logos",
+            "optionC": "Ethos",
+            "optionD": "Framen",
+            "correctOption": "optionD"
+        },
+        {
+            "question": "Wat is een belangrijk effect van pathos in retorica?",
+            "optionA": "Het publiek gaat meer rationeel denken",
+            "optionB": "Het publiek wordt emotioneler en minder rationeel",
+            "optionC": "Het publiek vertrouwt de spreker meer",
+            "optionD": "Het publiek krijgt meer informatie",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Waarom zijn verhalen krachtiger dan normale argumenten volgens de tekst?",
+            "optionA": "Ze zijn korter en bondiger",
+            "optionB": "Ze zijn moeilijker te weerleggen",
+            "optionC": "Ze maken het argument persoonlijker en begrijpelijker",
+            "optionD": "Ze tonen de deskundigheid van de spreker",
+            "correctOption": "optionC"
+        },
+        {
+            "question": "Wat kan een klein deel van je publiek overtuigen volgens de tekst?",
+            "optionA": "Goeie argumenten",
+            "optionB": "Emoties opwekken",
+            "optionC": "Verhalen vertellen",
+            "optionD": "Feiten presenteren",
+            "correctOption": "optionA"
+        },
+        {
+            "question": "Hoe noemen we de techniek waarbij je een onderwerp zo verdraait dat het in jouw voordeel werkt?",
+            "optionA": "Pathos",
+            "optionB": "Ethos",
+            "optionC": "Logos",
+            "optionD": "Framen",
+            "correctOption": "optionD"
+        },
+        {
+            "question": "Wat kan helpen om weg te komen met slechte argumenten volgens de tekst?",
+            "optionA": "Het citeren van gezaghebbende bronnen",
+            "optionB": "Het opwekken van emoties zoals woede",
+            "optionC": "Het vertellen van persoonlijke verhalen",
+            "optionD": "Het presenteren van logische argumenten",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Wat maakt het publiek makkelijker te geloven in de spreker?",
+            "optionA": "Het gebruik van ethos",
+            "optionB": "Het gebruik van logos",
+            "optionC": "Het gebruik van pathos",
+            "optionD": "Het gebruik van framen",
+            "correctOption": "optionA"
+        },
+        {
+            "question": "Wat zou je gebruiken om je argumenten persoonlijker te maken?",
+            "optionA": "Pathos",
+            "optionB": "Logos",
+            "optionC": "Ethos",
+            "optionD": "Verhalen",
+            "correctOption": "optionD"
+        },
+        {
+            "question": "Hoe kan je ethos opbouwen zonder een deskundige achtergrond?",
+            "optionA": "Door emoties op te wekken",
+            "optionB": "Door feiten te presenteren",
+            "optionC": "Door jezelf deskundig te laten lijken",
+            "optionD": "Door verhalen te vertellen",
+            "correctOption": "optionC"
+        },
+        {
+            "question": "Wat is een mogelijke reden dat iemand minder rationeel gaat denken tijdens een toespraak?",
+            "optionA": "Het gebruik van ethos",
+            "optionB": "Het gebruik van pathos",
+            "optionC": "Het gebruik van logos",
+            "optionD": "Het gebruik van framen",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Wat kan helpen bij het winnen van een debat zelfs als je het fout hebt?",
+            "optionA": "Goede argumenten",
+            "optionB": "Het gebruik van ethos, pathos, verhalen en framen",
+            "optionC": "Logische argumenten",
+            "optionD": "Feiten presenteren",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Wat is een voorbeeld van framen genoemd in de tekst?",
+            "optionA": "Het vertellen van een persoonlijk verhaal",
+            "optionB": "Het citeren van gezaghebbende bronnen",
+            "optionC": "Het gebruik van termen zoals 'Pro-life' en 'Pro-choice'",
+            "optionD": "Het presenteren van logische argumenten",
+            "correctOption": "optionC"
+        },
+        {
+            "question": "Wat is een belangrijk onderdeel van ethos?",
+            "optionA": "Het wekken van emoties",
+            "optionB": "Het laten zien van je karakter en betrouwbaarheid",
+            "optionC": "Het vertellen van verhalen",
+            "optionD": "Het verdraaien van feiten",
+            "correctOption": "optionB"
+        },
+        {
+            "question": "Hoe kan het inspelen op trots helpen in een toespraak?",
+            "optionA": "Het zorgt ervoor dat mensen minder rationeel denken",
+            "optionB": "Het toont de deskundigheid van de spreker",
+            "optionC": "Het presenteert logische argumenten",
+            "optionD": "Het verdraait feiten in jouw voordeel",
+            "correctOption": "optionA"
+        },
+        {
+            "question": "Welke van de volgende is geen aspect van retorica genoemd in de tekst?",
+            "optionA": "Ethos",
+            "optionB": "Pathos",
+            "optionC": "Framen",
+            "optionD": "Dialectiek",
+            "correctOption": "optionD"
+        },
+        {
+            "question": "Wat is het doel van het gebruik van ethos in een toespraak?",
+            "optionA": "Het wekken van emoties bij het publiek",
+            "optionB": "Het tonen van je karakter en betrouwbaarheid",
+            "optionC": "Het verdraaien van feiten in jouw voordeel",
+            "optionD": "Het vertellen van verhalen",
+            "correctOption": "optionB"
+        }
 ]
 
 
@@ -223,6 +343,8 @@ function handleEndGame() {
     document.getElementById('wrong-answers').innerHTML = wrongAttempt
     document.getElementById('right-answers').innerHTML = playerScore
     document.getElementById('score-modal').style.display = "flex"
+    var audio = document.getElementById('jackpot-audio');
+    audio.play();
 
 }
 

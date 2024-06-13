@@ -131,10 +131,7 @@ a {
     width: 29.4vw; 
     margin: 2.5vi; 
     margin-right: 0vi; 
-    height: 15vw;
 }
-
-
 
 .game-quiz-container{
     width: 100%;
@@ -245,7 +242,7 @@ input[type=radio]:checked ~ .option {
     animation: fadeIn 1.2s ease-in-out;
 }
 .modal-content-container{
-    height: 20rem;
+    height: 25rem;
     width: 25rem;
     background-color: rgb(43, 42, 42);
     display: flex;
